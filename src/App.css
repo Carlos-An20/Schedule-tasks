@@ -1,0 +1,63 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html,
+body{
+  color: rgb(24, 41, 41);
+  background-color: aquamarine;
+  font-family: sans-serif;
+  margin-top: 40px;
+}
+
+h1{
+  color: black;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+  
+}
+
+
+/* Estilo General*/
+
+.aplicacion-tareas{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Contenedor del logo */
+
+.logo-contenedor{
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/*Tama;o y altura del logo*/
+.free-logo{
+  width: 400px;
+  height: 50px ;
+}
+
+/*Contrenedor de las tareas*/
+.tareas-lista-prin{
+  width: 600px;
+  min-height:500px;
+  background-color: rgb(137, 172, 179);
+  padding: 25px;
+  margin: 10px;
+  justify-content: center;
+  border-radius: 26px;
+}
+
